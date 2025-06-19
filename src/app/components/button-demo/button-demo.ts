@@ -7,4 +7,11 @@ import { ButtonModule } from 'primeng/button';
     standalone: true,
     imports: [ButtonModule]
 })
-export class ButtonDemo {}
+export class ButtonDemo {
+    public ButtonDemoText =  "Click me !"
+    public ButtonDemoClicks = 0
+    
+    public ButtonDemoClick = () => {
+        this.ButtonDemoClicks++
+    }
+}
