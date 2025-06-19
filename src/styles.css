@@ -3,4 +3,5 @@
 @tailwind components;
 @tailwind utilities;*/
 @import "tailwindcss"
+/* @plugin "tailwindcss-primeui"; */
 
