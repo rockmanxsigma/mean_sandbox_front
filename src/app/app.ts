@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ButtonDemo } from './components/button-demo/button-demo'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ButtonDemo],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
+
 export class App {
-  protected title = 'front';
+  protected title = 'MEAN Sandbox Front';
 }
