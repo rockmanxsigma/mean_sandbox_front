@@ -11,7 +11,7 @@ export class ButtonDemo {
     public ButtonDemoText =  "Click me !"
     public ButtonDemoClicks = 0
     
-    public ButtonDemoClick = () => {
+    public onButtonDemoClick = () => {
         this.ButtonDemoClicks++
     }
 }
