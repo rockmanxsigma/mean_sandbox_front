@@ -1,0 +1,8 @@
+<section class="things-list">
+  <h2 class="text-2xl m-5">Things list</h2>
+  <div class="things-item mb-5 dark:bg-gray-900 m-5 p-3" *ngFor="let thing of things">
+      <h3 class="font-semibold">{{thing.title}}</h3>
+      <p><em>{{thing.description}}</em></p>
+      <p>{{thing.price}}€</p>
+  </div>
+</section>
